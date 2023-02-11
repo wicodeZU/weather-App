@@ -66,13 +66,14 @@ const Home = () => {
       </div>
       {isVisible && (
         <div className="footer">
-          <div>
-            <div className="temparatureFooter">
+          <div className="temparatureFooter">
+            <div className="temparaturesmFooter">
               <h1>29</h1>
               <span>o</span>
-              <span>C</span>
-              <img src={Weather} className="WeatherImgFooter" />
             </div>
+            <span>C</span>
+            <img src={Weather} className="WeatherImgFooter" />
+            <span>15.00</span>
           </div>
         </div>
       )}
