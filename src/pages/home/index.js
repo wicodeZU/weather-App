@@ -3,6 +3,7 @@ import "./home.css";
 import Weather from "../../components/assets/cloud.png";
 import { Search } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+import "./src/misc/misc.js";
 
 const data = [
   { id: 1, name: "Nairobi" },
@@ -71,7 +72,7 @@ const Home = () => {
               <h1>29</h1>
               <span>o</span>
               <span>C</span>
-              <img src={Weather} className="WeatherImgFooter" />
+              <img src={Weather} className="WeatherImgFooter" alt="Footer"/>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
-const WearthList = () => {
-  return <div>WearthList</div>;
+const WeatherList = () => {
+  return <div>WeatherList</div>;
 };
 
-export default WearthList;
+export default WeatherList;
