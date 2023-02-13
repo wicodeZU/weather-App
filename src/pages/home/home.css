@@ -17,12 +17,18 @@
     border-radius: 10px;
     background-color: #1C1B33;
 }
+.searchIcon{
+   color: #0ff046;
+}
+
 .inputArea{
     width: 100%;
     font-size: 16px;
     border: none;
     outline: none;
     background-color: transparent;
+    color: #aff045;
+    font-family: 'Courier New', Courier, monospace;
 }
 .countyContainer{
     display: flex;
@@ -67,7 +73,7 @@
  .temparature>span{
     font-weight: 400;
     font-size: 40px;
-    margin-top: 10px !important;
+    margin-top: 10px;
     margin-left: 10px;
  }
  .Weatherdata>span{
@@ -109,9 +115,6 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background: linear-gradient(to bottom, #202d52, #505c79);
- }
- .temparatureFooter{
-   /* margin-top: 20%; */
  }
  .WeatherImgFooter{
     width: 5%;
