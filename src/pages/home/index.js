@@ -3,6 +3,7 @@ import "./home.css";
 import Weather from "../../components/assets/cloud.png";
 import { Search } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+import {} from "../../misc/misc0.js"
 
 const data = [
   { id: 1, name: "Nairobi" },
@@ -44,7 +45,9 @@ const Home = () => {
       </div>
       <div className="countyContainer">
         <span className="countyName">Nairobi</span>
-        <span className="countyDate">8 Fed,2023</span>
+        <span className="this-date"></span>
+        <span className="this-month"></span>
+        <span className="this-year"></span>
       </div>
       <div className="WeatherContainer">
         <img src={Weather} className="WeatherImg" />
