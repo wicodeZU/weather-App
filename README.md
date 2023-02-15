@@ -1,3 +1,4 @@
+
 # Weather App
 
 The client side is in React, After cloning[^1] the repo and being on the project directory do the following:
@@ -65,3 +66,18 @@ yarn start
     If you can't use the methods listed above for any reason, you can download a zip file.  
     Just click the ZIP Download file.  
     After the download then [unzip](https://peazip.github.io/) the file.
+## Weather App
+
+The client side is in React, After cloning the repo and being on the project directory do the folloeing:
+- install dependanicies using 
+```
+yarn install
+```
+or
+```
+npm install
+```
+- then start the app
+```
+yarn start
+```
