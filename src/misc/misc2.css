@@ -1,0 +1,10 @@
+.input-area-explanation{
+    color: #ed2500;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    display: block;
+    margin: 10px 0 -30px;
+}
+.display-none{
+    display: none;
+}

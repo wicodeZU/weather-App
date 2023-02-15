@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .searchItems{
     margin-top: 5%;
@@ -17,12 +18,24 @@
     border-radius: 10px;
     background-color: #1C1B33;
 }
+.searchIcon{
+   cursor: pointer;
+   color: #0ff046;
+   border: #0ff046 2px solid;
+   border-radius: 5px 0 0 5px;
+   padding: 2px;
+   margin-right: 5px;
+}
+
 .inputArea{
     width: 100%;
     font-size: 16px;
     border: none;
     outline: none;
     background-color: transparent;
+    color: #aff045;
+    font-family: 'Courier New', Courier, monospace;
+    caret-color: #87ceeb;
 }
 .countyContainer{
     display: flex;
@@ -35,7 +48,7 @@
     font-weight: 400;
     font-size: 42px;
 }
- .countyDate{
+ [class^='this-']{
     color: #838386;
     font-size: 12px;
     margin-left: 10px;
@@ -67,7 +80,7 @@
  .temparature>span{
     font-weight: 400;
     font-size: 40px;
-    margin-top: 10px !important;
+    margin-top: 10px;
     margin-left: 10px;
  }
  .Weatherdata>span{
@@ -109,9 +122,6 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background: linear-gradient(to bottom, #202d52, #505c79);
- }
- .temparatureFooter{
-   /* margin-top: 20%; */
  }
  .WeatherImgFooter{
     width: 5%;
