@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Web site made by the WicodeZU Community"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -25,7 +25,48 @@
     <title>WEATHER APP</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <style>
+        body{
+          display: grid;
+          place-content: center;
+          min-height: 100vh;
+          background: #aaa;
+        }
+        img{
+          width: 200px;
+          position: relative;
+        }
+        .noscript-container{
+          height: 300px;
+          width: 550px;
+          background: rgb(240, 237, 67);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          border-radius: 17px;
+          outline: 10px #deb447 solid;
+        }
+        [id^='noscript']{
+          color: #000000;
+          font-family: 'Courier New', Courier, monospace;
+        }
+        #noscript-main-text{
+          font-size: 24px;
+          font-weight: 900;
+        }
+        #noscript-sub-text{
+          font-size: 14px;
+          font-weight: 700;
+        }
+      </style>
+      <div class="noscript-container">
+        <img src="./jslogo.png" alt="hello">
+        <p id="noscript-main-text">Oh No! Javascript is not Enabled</p>
+        <p id="noscript-sub-text">This site relies on Javascript. Please<a href="https://www.enable-javascript.com/"> enable </a> it! </p>
+      </noscript>
+      </div>
     <div id="root"></div>
    
   </body>
