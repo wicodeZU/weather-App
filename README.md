@@ -1,5 +1,6 @@
 
 # Weather App
+https://www.figma.com/file/ejkrqqM8dlv63dh7fPS2Ut/weather-App?t=jBfBSBSat1SVOYGV-6 - link to the Weather-app design
 
 The client side is in React, After cloning[^1] the repo and being on the project directory do the following:
 
